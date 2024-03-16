@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="#222529"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/sayi"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="text"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="70dp"
+        android:textSize="36dp"
+        android:textColor="#EAAEAE" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:text="C"
+                android:textColor="#CF0C0C" />
+
+            <Button
+                android:id="@+id/btnpar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:text="()"
+                android:textColor="#D7A7E4" />
+
+
+            <Button
+                android:id="@+id/btnyuz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:text="%"
+                android:textColor="#D7A7E4" />
+
+            <Button
+                android:id="@+id/btnbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:text="÷"
+                android:textColor="#D7A7E4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:onClick="btnSayiSec"
+                android:text="7"
+                android:textColor="#EAAEAE" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:onClick="btnSayiSec"
+                android:text="8"
+                android:textColor="#EAAEAE" />
+
+            <Button
+                android:id="@+id/bnt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:onClick="btnSayiSec"
+                android:text="9"
+                android:textColor="#EAAEAE" />
+
+            <Button
+                android:id="@+id/btncarp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:text="×"
+                android:textColor="#D7A7E4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:onClick="btnSayiSec"
+                android:text="4"
+                android:textColor="#EAAEAE" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:onClick="btnSayiSec"
+                android:text="5"
+                android:textColor="#EAAEAE" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:onClick="btnSayiSec"
+                android:text="6"
+                android:textColor="#EAAEAE" />
+
+            <Button
+                android:id="@+id/btnazt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:text="-"
+                android:textColor="#D7A7E4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:onClick="btnSayiSec"
+                android:text="1"
+                android:textColor="#EAAEAE" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:onClick="btnSayiSec"
+                android:text="2"
+                android:textColor="#EAAEAE" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:onClick="btnSayiSec"
+                android:text="3"
+                android:textColor="#EAAEAE" />
+
+            <Button
+                android:id="@+id/btnart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:text="+"
+                android:textColor="#D7A7E4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="37dp">
+
+            <Button
+                android:id="@+id/btnarteks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:text="+/-"
+                android:textColor="#EAAEAE" />
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:text="0"
+                android:textColor="#EAAEAE"
+                android:onClick="btnSayiSec" />
+
+            <Button
+                android:id="@+id/btnvirgul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:onClick="btnSayiSec"
+                android:text=","
+                android:textColor="#EAAEAE" />
+
+            <Button
+                android:id="@+id/btnesit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/yuvarlakbuton"
+                android:backgroundTint="#964FBC"
+                android:text="="
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
